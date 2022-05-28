@@ -1,3 +1,7 @@
+body{
+  margin: 5%;
+}
+
 h1 { 
     display: block;
     font-size: 2em;
@@ -17,6 +21,16 @@ h2 {
     margin-right: 0;
     font-weight: bold;
   }
+p{
+  text-align: justify;
+}
+
+.workOnText{
+  display:block;
+  position: relative;
+  background-color: rgb(231, 224, 224);
+  padding: 10px;
+}
 
 .font_interval-1px{
     letter-spacing: 1px;
@@ -29,3 +43,31 @@ h2 {
 .font_interval--1px{
   letter-spacing: -1px;
 }
+
+.word_interval-3px{
+  word-spacing: 3px;
+}
+
+.word_interval-0px{
+  word-spacing: 0px;
+}
+
+.text_uppercase{
+  text-transform: uppercase;
+}
+
+.text_small-caps{
+  font-variant: small-caps;
+}
+
+p span{
+  text-transform: uppercase;
+}
+
+.text-capitalizer{
+  text-transform: capitalize;
+}
+.last-line-right{
+  text-align-last: right; 
+}
+
