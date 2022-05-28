@@ -18,6 +18,14 @@ h2 {
     font-weight: bold;
   }
 
-.font_interval{
+.font_interval-1px{
     letter-spacing: 1px;
+}
+
+.font_interval-3px{
+  letter-spacing: 3px;
+}
+
+.font_interval--1px{
+  letter-spacing: -1px;
 }
