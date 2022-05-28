@@ -67,7 +67,22 @@ p span{
 .text-capitalizer{
   text-transform: capitalize;
 }
+
 .last-line-right{
   text-align-last: right; 
 }
 
+.hyph_indent{
+  white-space: pre-wrap;
+}
+
+.width200 {
+  display: block;
+  position: inherit;
+  width: 200px;
+  background-color: rgb(156, 121, 253);
+}
+
+pre{
+  white-space: pre;
+}
