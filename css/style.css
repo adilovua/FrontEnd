@@ -80,9 +80,21 @@ p span{
   display: block;
   position: inherit;
   width: 200px;
-  background-color: rgb(156, 121, 253);
+  border: 1px solid black;
 }
 
 pre{
   white-space: pre;
+}
+
+.pre_style{
+  white-space: pre;
+}
+
+.pre-wrap_style{
+  white-space: pre-wrap;
+}
+
+.pre-line_style{
+  white-space: pre-line;
 }
